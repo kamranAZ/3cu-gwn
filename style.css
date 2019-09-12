@@ -1,0 +1,110 @@
+.logo{
+    float: left
+}
+.temizle{
+    clear: both;
+}
+/*
+---------------
+ header start
+---------------
+  */
+.menu ul li{
+    float: left;
+    padding:15px
+}
+.menu ul li:hover{
+    color:violet;
+}
+.menu ul{
+    float: right;
+    margin: 0;
+    list-style: none
+}
+.header{
+    height: 60px;
+    width: 1140px;
+    margin: 15px auto;
+}
+
+/*
+-----------------
+ header end
+----------------
+*/
+
+/*
+---------------
+ about start 
+---------------
+ */
+.about-left{
+    width: 50%;
+    float: left
+}
+.about-right{
+    width: 50%;
+    float: left;
+}
+.orta{
+    width: 960px;
+    margin: auto;
+}
+.abouts{
+    background: aquamarine;
+    height: 600px;
+}
+.about-left button{
+    padding: 12px 20px;
+    border: none;
+    color:#fff;
+    font-size: 14px;
+    
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%)
+}
+.about-left button:hover{
+    box-shadow: 0 20px 20px 0  blue ;
+    transition: 1s ease;
+}
+/* 
+---------------
+about finish 
+---------------
+*/
+
+.blog-left{
+    width: 50%;
+    float:left
+}
+.blog-right{
+    width: 50%;
+    float: left;
+}
+.blog-right button{
+    background: #8490ff;
+    color: white;
+    border: none;
+   
+    padding: 12px 20px;
+
+}
+.blog-right button:hover{
+    box-shadow: 0 20px 20px 0 red;  
+    transition: 1s ease;
+}
+.Blogs{
+    background: greenyellow;
+    height: 600px;
+}
+.other{
+    background: url(https://colorlib.com/preview/theme/personal/img/hero-img.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.box{
+    width: 500px;
+    margin: auto;
+    padding: 180px 0;
+}
